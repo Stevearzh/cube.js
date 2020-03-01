@@ -1,0 +1,25 @@
+{
+  "name": "@cubejs-backend/monetdb-driver",
+  "description": "Cube.js Monet database driver",
+  "author": "https://github.com/Stevearzh",
+  "version": "0.18.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cube-js/cube.js.git",
+    "directory": "packages/cubejs-monetdb-driver"
+  },
+  "engines": {
+    "node": ">=8.11.1"
+  },
+  "main": "driver/MonetDriver.js",
+  "dependencies": {
+    "@cubejs-backend/query-orchestrator": "^0.18.2",
+    "generic-pool": "^3.6.0",
+    "monetdb": "^1.1.4",
+    "sqlstring": "^2.3.1"
+  },
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}

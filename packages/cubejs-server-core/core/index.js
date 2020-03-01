@@ -30,6 +30,7 @@ const DriverDependencies = {
   oracle: '@cubejs-backend/oracle-driver',
   sqlite: '@cubejs-backend/sqlite-driver',
   odelasticsearch: '@cubejs-backend/elasticsearch-driver',
+  monetdb: '@cubejs-backend/monetdb-driver',
 };
 
 const checkEnvForPlaceholders = () => {
