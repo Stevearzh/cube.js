@@ -854,9 +854,9 @@
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
 "@babel/standalone@^7.3.4":
-  version "7.7.2"
-  resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.7.2.tgz#b367e6b92ce6d4e145aa0430b623e80cb0fe4eaf"
-  integrity sha512-L2iWJ/5CFAiGng0LkK1YazxMV6/kBgBVi01wYhbxsjAlZPwzEWNaC3HStN8+mErppQe5+ZUsPGSXkrClZebDvQ==
+  version "7.8.6"
+  resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.8.6.tgz#1364534775c83bf7b7988e4ca98823bef56a0a53"
+  integrity sha512-GkzSsxrnn3NbL0XwY7oVa1frbl71NmYf73C3xdpt59W056Sm9ohZghuoC2W1NLKAOVztghoyFmtQCKc/7qjSDg==
 
 "@babel/template@^7.4.0", "@babel/template@^7.7.0":
   version "7.7.0"
@@ -947,31 +947,32 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@cubejs-backend/api-gateway@^0.17.1":
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.17.1.tgz#ac8fdc3928863a2a1713b533d649fb3dede1c2b8"
-  integrity sha512-8iP/vJV+tkB+7YqZfyeG17PbbSEDa89oorcNYm9Fd/HcOoemYD3EVzV/JWV0LHrmc9f3kVcYno6U10Ledd4P0Q==
+"@cubejs-backend/api-gateway@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/api-gateway/-/api-gateway-0.18.0.tgz#42b93088d56849c860a481f424d3ccb2c949a167"
+  integrity sha512-fg/Dnn5nGgLYEyqiSJ7NQW/dF+7jybGeDiReSmaSo8dzkQWbTlVTJXXwaeXsOcxVmQz6aGlH7Xk2RzcGcEIuBw==
   dependencies:
-    "@hapi/joi" "^14.0.6"
+    "@hapi/joi" "^15.1.1"
     chrono-node "^1.3.11"
     jsonwebtoken "^8.3.0"
     moment "^2.24.0"
     moment-timezone "^0.5.27"
-    ramda "^0.25.0"
+    ramda "^0.27.0"
     uuid "^3.3.3"
 
-"@cubejs-backend/query-orchestrator@^0.17.10":
-  version "0.17.10"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.17.10.tgz#44604f30acee7c65a4dde92af662aad605d195af"
-  integrity sha512-hmNWfaFapKZPS4ePIYvjxMelUKd2KIPdLh0vikcdhVCj++M9+0fyFnEUvpoPdYjc8jciksVEfA7ehId0C6xE3Q==
+"@cubejs-backend/query-orchestrator@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.18.0.tgz#234fc935cca3216b11ecb6bf169297067e1f9354"
+  integrity sha512-3HgchjbfUT0brdR0tOmrorGDyRo/3xvtDRB9oFkmESow6AgUlKL0QmegIBOtEWKBvG9bvNsyzjZifKe4akAU6Q==
   dependencies:
-    ramda "^0.24.1"
+    generic-pool "^3.7.1"
+    ramda "^0.27.0"
     redis "^2.8.0"
 
-"@cubejs-backend/schema-compiler@^0.17.10":
-  version "0.17.10"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.17.10.tgz#e128e2bee610ba2416d45053d8b37f52681af0c5"
-  integrity sha512-bDKcpLAS2mREtxwnOXhGpmF2PaUzXDIKhh5THBvK5TXClz4GwkxQ7+MVBxYzvGWcMIMqmTHlYYnGelfbwbFdhw==
+"@cubejs-backend/schema-compiler@^0.18.0":
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/schema-compiler/-/schema-compiler-0.18.0.tgz#f3722046e8349aa5ff66c5e93f1289f33fbd0cb0"
+  integrity sha512-5FlbkDvBD9JKpZsnmpBB+pRhWRhyTpN9YAQCNumrjfIN/tPrhKBOGRZc28cjWU9cc4n9Fl1nsuXPwELba47lZA==
   dependencies:
     "@babel/generator" "^7.4.0"
     "@babel/parser" "^7.4.2"
@@ -985,6 +986,7 @@
     moment-range "^4.0.1"
     moment-timezone "^0.5.13"
     node-dijkstra "^2.5.0"
+    ramda "^0.27.0"
     syntax-error "^1.3.0"
 
 "@hapi/address@2.x.x":
@@ -997,25 +999,10 @@
   resolved "https://registry.yarnpkg.com/@hapi/bourne/-/bourne-1.3.2.tgz#0a7095adea067243ce3283e1b56b8a8f453b242a"
   integrity sha512-1dVNHT76Uu5N3eJNTYcvxee+jzX4Z9lfciqRRHCU27ihbUcYi+iSc2iml5Ke1LXe1SyJCLA0+14Jh4tXJgOppA==
 
-"@hapi/hoek@6.x.x":
-  version "6.2.4"
-  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-6.2.4.tgz#4b95fbaccbfba90185690890bdf1a2fbbda10595"
-  integrity sha512-HOJ20Kc93DkDVvjwHyHawPwPkX44sIrbXazAUDiUXaY2R9JwQGo2PhFfnQtdrsIe4igjG2fPgMra7NYw7qhy0A==
-
 "@hapi/hoek@8.x.x":
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-8.2.1.tgz#924af04cbb22e17359c620d2a9c946e63f58eb77"
   integrity sha512-JPiBy+oSmsq3St7XlipfN5pNA6bDJ1kpa73PrK/zR29CVClDVqy04AanM/M/qx5bSF+I61DdCfAvRrujau+zRg==
-
-"@hapi/joi@^14.0.6":
-  version "14.5.0"
-  resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-14.5.0.tgz#197e06edbd90436150f7f02154a83d0a82753188"
-  integrity sha512-q8oNlQWQpN14j6lMkaQqVdG8km+Ni32ZeuJ+sSOB+5a5VsIY6KVpPvdoMU/XKyAS7P7qP0TgM9fFGC2d8dB6hA==
-  dependencies:
-    "@hapi/hoek" "6.x.x"
-    "@hapi/marker" "1.x.x"
-    "@hapi/topo" "3.x.x"
-    isemail "3.x.x"
 
 "@hapi/joi@^15.1.1":
   version "15.1.1"
@@ -1026,11 +1013,6 @@
     "@hapi/bourne" "1.x.x"
     "@hapi/hoek" "8.x.x"
     "@hapi/topo" "3.x.x"
-
-"@hapi/marker@1.x.x":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@hapi/marker/-/marker-1.0.0.tgz#65b0b2b01d1be06304886ce9b4b77b1bfb21a769"
-  integrity sha512-JOfdekTXnJexfE8PyhZFyHvHjt81rBFSAbTIRAhF2vv/2Y1JzoKsGqxH/GpZJoF7aEfYok8JVcAHmSz1gkBieA==
 
 "@hapi/topo@3.x.x":
   version "3.1.3"
@@ -2633,6 +2615,11 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
+generic-pool@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-3.7.1.tgz#36fe5bb83e7e0e032e5d32cd05dc00f5ff119aa8"
+  integrity sha512-ug6DAZoNgWm6q5KhPFA+hzXfBLFQu5sTXxPpv44DmE0A2g+CiHoq9LTVdkXpZMkYVMoGw83F6W+WT0h0MFMK/w==
+
 get-caller-file@^2.0.1:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
@@ -3111,13 +3098,6 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
-
-isemail@3.x.x:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/isemail/-/isemail-3.2.0.tgz#59310a021931a9fb06bbb51e155ce0b3f236832c"
-  integrity sha512-zKqkK+O+dGqevc93KNsbZ/TqTUFd46MwWjYOoMrjIMZ51eU7DtQG3Wmd9SQQT7i7RVnuTPEiYEWHU3MSbxC1Tg==
-  dependencies:
-    punycode "2.x.x"
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -4617,30 +4597,20 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-punycode@2.x.x, punycode@^2.1.0, punycode@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
-  integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-
 punycode@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
   integrity sha1-wNWmOycYgArY4esPpSachN1BhF4=
 
+punycode@^2.1.0, punycode@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
+  integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+
 qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
-
-ramda@^0.24.1:
-  version "0.24.1"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.24.1.tgz#c3b7755197f35b8dc3502228262c4c91ddb6b857"
-  integrity sha1-w7d1UZfzW43DUCIoJixMkd22uFc=
-
-ramda@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
-  integrity sha512-GXpfrYVPwx3K7RQ6aYT8KPS8XViSXUVJT1ONhoKPE9VAleW42YE+U+8VEyGWt41EnEQW7gwecYJriTI0pKoecQ==
 
 ramda@^0.27.0:
   version "0.27.0"
